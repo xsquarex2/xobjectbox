@@ -30,6 +30,9 @@ allprojects {
         maven { url "http://objectbox.net/beta-repo/" }
         //第五步
         //在app.gradle中添加apply plugin: 'io.objectbox'
+        //第六步
+        //debugCompile 'io.objectbox:objectbox-android-objectbrowser:1.2.1'
+        //releaseCompile 'io.objectbox:objectbox-android:1.4.1'
     }
 }
 
